@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;800&display=swap');
+@import "tailwindcss";
+
+:root {
+  --bg-dark: #020617;
+  --bg-card: #0f172a;
+  --primary: #6366f1;
+  --primary-hover: #4f46e5;
+  --accent: #10b981;
+  --text-main: #f8fafc;
+  --text-dim: #94a3b8;
+  --border: #1e293b;
+  --font-main: 'Inter', sans-serif;
+  --font-accent: 'Outfit', sans-serif;
+}
+
+@theme {
+  --color-primary: var(--primary);
+  --color-indigo-500: var(--primary);
+  --color-emerald-500: var(--accent);
+}
+
+body {
+  background-color: var(--bg-dark);
+  color: var(--text-main);
+  font-family: var(--font-main);
+  min-height: 100vh;
+  line-height: 1.6;
+}
+
+.card {
+  @apply bg-slate-900/40 backdrop-blur-xl border border-slate-800/50 rounded-[2.5rem] p-8 md:p-10;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.input-field {
+  @apply bg-slate-950/80 border border-slate-800 rounded-3xl p-6 text-slate-300 transition-all;
+}
+
+.btn-primary {
+  @apply bg-primary text-white p-4 rounded-2xl font-bold flex items-center justify-center gap-2 transition-all active:scale-[0.98];
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
