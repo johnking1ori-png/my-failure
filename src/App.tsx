@@ -67,7 +67,7 @@ export default function App() {
           Zero-Setup Multimodal Reasoning Engine
         </motion.div>
         <h1 className="text-6xl font-extrabold mb-6 tracking-tighter text-white">
-          My <span className="text-indigo-500">Failure</span>
+          Failure <span className="text-indigo-500">Reasoner</span>
         </h1>
         <p className="text-slate-400 text-xl max-w-2xl mx-auto leading-relaxed">
           Gemini 3’s reasoning capabilities allow the system to correlate log warnings, runtime errors, and visual evidence to identify technical root causes instantly.
@@ -206,7 +206,7 @@ export default function App() {
                 </>
               ) : (
                 <>
-                  <span className="tracking-tighter">EXECUTE MY FAILURE</span>
+                  <span className="tracking-tighter">EXECUTE FAILURE REASONER</span>
                   <ChevronRight size={32} className="group-hover:translate-x-2 transition-transform" />
                 </>
               )}

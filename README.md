@@ -2,8 +2,6 @@
 
 **Failure Reasoner** is a high-performance technical reasoning system built for the **Gemini API Developer Hackathon 2026**. It leverages Gemini 2.5 Flash's multimodal capabilities to visually and logically correlate technical failure evidence.
 
-![Screenshot of Failure Reasoner](https://raw.githubusercontent.com/user/repo/main/path/to/screenshot.png) *(Note: Replace with your actual gallery screenshot link)*
-
 ## 🚀 The Vision
 Debugging is often a fragmented process of looking at text logs and trying to visualize UI states. **Failure Reasoner** merges these streams. By providing a technical log and a video or screenshot of the error in action, Gemini correlates the temporal events with the stack trace to provide a **Neural Root Cause Analysis**.
 
@@ -23,12 +21,12 @@ Debugging is often a fragmented process of looking at text logs and trying to vi
 
 ### 1. Prerequisites
 - Node.js (v18+)
-- A Google Gemini API Key (Get one at [Google AI Studio](https://aistudio.google.com/))
+- A Google Gemini API Key
 
 ### 2. Installation
 ```bash
-git clone https://github.com/your-username/failure-reasoner.git
-cd failure-reasoner
+git clone https://github.com/johnking1ori-png/my-failure.git
+cd my-failure
 npm install
 ```
 
@@ -43,8 +41,5 @@ VITE_GEMINI_API_KEY=your_actual_key_here
 npm run dev
 ```
 
-The app will be available at `http://localhost:5173`.
-
 ---
-
 Built with ❤️ for the Gemini API Developer Hackathon.
