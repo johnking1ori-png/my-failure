@@ -1,5 +1,5 @@
 import { useState, useRef } from 'react';
-import { Terminal, Upload, Play, AlertCircle, CheckCircle2, Loader2, Sparkles, Image as ImageIcon, Video, ChevronRight } from 'lucide-react';
+import { Terminal, Upload, AlertCircle, CheckCircle2, Loader2, Sparkles, Image as ImageIcon, Video, ChevronRight } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { explainFailure } from './services/gemini';
 
